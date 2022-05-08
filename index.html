@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProdajaVoca</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <h1>Prodaja Voca</h1>
+    <div class="container">
+        <div class="items">
+            <h2>Voce</h2>
+            
+
+            <div class="sort-item">
+                <img src="img/jagodaa.png">
+                <div class="content">
+                    <h3>Jagoda</h3>
+                    <p class="price">$10</p>
+                </div>
+                <div class="actions">
+                    <input type="number" name="quantity" value="0" min="0">
+                    <button onclick="addToList(this)">Dodaj</button>
+                </div>
+            </div>
+
+            <div class="sort-item">
+                <img src="img/malinaa.png">
+                <div class="content">
+                    <h3>Malina</h3>
+                    <p class="price">$15</p>
+                </div>
+                <div class="actions">
+                    <input type="number" name="quantity" value="0" min="0">
+                    <button onclick="addToList(this)">Dodaj</button>
+                </div>
+            </div>
+
+            <div class="sort-item">
+                <img src="img/kupinaa.png">
+                <div class="content">
+                    <h3>Kupina</h3>
+                    <p class="price">$8</p>
+                </div>
+                <div class="actions">
+                    <input type="number" name="quantity" value="0" min="0">
+                    <button onclick="addToList(this)">Dodaj</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="cart">
+            <h2>Karta</h2>
+            <div class="cart-items"></div>
+            <div class="cart-items2"></div>
+
+            <div class="total"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
